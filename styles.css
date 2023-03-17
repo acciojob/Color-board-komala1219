@@ -1,13 +1,20 @@
 /*  your css code here. If applicable */
 
-body{
-	backgroun-color:black;
+.squre{
+
+    width:20px;
+    height:20px;
+    background-color: aqua;
+
+
 }
-
 .container{
+    
+    background-color: black;
+    display: grid;
+    grid-template-columns:repeat(40,20px);
+   
+    gap:5px;
 
-	width:600px;
-	height:300px;
-	backgroun-color:gray;
-	display:grid;
+    padding:25px;
 }
